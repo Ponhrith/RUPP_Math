@@ -7,11 +7,11 @@ n = int(input('Enter number of unknowns: '))
 
 # Making numpy array of n x n+1 size and initializing 
 # to zero for storing augmented matrix
-a = np.zeros((n,n+1))
+a = np.zeros((n,n+1)) #create array that has dimension 3 and 3 + 1
 
 # Making numpy array of n size and initializing 
 # to zero for storing solution vector
-x = np.zeros(n)
+x = np.zeros(n) #answer
 
 # Reading augmented matrix coefficients
 print('Enter Augmented Matrix Coefficients:')
